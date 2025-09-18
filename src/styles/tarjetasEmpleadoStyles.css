@@ -1,0 +1,32 @@
+@keyframes rotacion{
+  0% {
+    transform: rotateX(0deg);
+    transform: rotateY(0deg);
+  }
+  25%{
+    transform: rotateX(20deg);
+    transform: rotateY(-15deg);
+  }
+  50% {
+    transform: rotateX(0deg);
+    transform: rotateY(0deg);
+  }
+  75%{
+    transform: rotateX(-25deg);
+    transform: rotateY(15deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+    transform: rotateY(0deg);
+  }
+}
+
+.animacion-rotacion:hover{
+  animation: rotacion 3s ease-in-out infinite;
+  transform-style: preserve-3d;
+}
+
+.animacion-rotacion:active{
+  animation: rotacion 3s ease-in-out infinite;
+  transform-style: preserve-3d;
+}
